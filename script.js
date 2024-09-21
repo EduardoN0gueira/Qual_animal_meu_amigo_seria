@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "Qual animal Gabriel seria?",
+        question: "Qual animal Gabriel Gmin seria?",
         answers: [
             {text: "Tubarão", correct: false},
             {text: "Bagre", correct: false},
@@ -25,7 +25,17 @@ const questions = [
             {text: "Dromedário", correct: false},
             {text: "Elefante", correct: false},
         ]
-    }
+    },
+    {
+        question: "Qual animal Gabriel Lucas seria?",
+        answers: [
+            {text: "Lagarta", correct: false},
+            {text: "Ali(Gay)tor", correct: false},
+            {text: "Chupeco", correct: true},
+            {text: "Caracol", correct: false},
+        ]
+    },
+    
 ];
 
 const questionElement = document.getElementById("question");
